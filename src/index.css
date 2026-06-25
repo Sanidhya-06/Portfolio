@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  user-select: none;
+}
+
+:root {
+  --wallpaper: #f3cc97;
+  --pink-accent: #f2c4d3;
+  --pink-folder: #ffbcdd;
+  --pink-light: #F5DADA;
+  --window-bg: rgba(251, 244, 235, 0.864);
+  --titlebar: rgba(251, 217, 229, 0.92);
+  --dock-bg: rgba(255, 188, 236, 0.777);
+  --charcoal: #2C2C2C;
+  --text-muted: #8A7A78;
+  --border: rgba(212, 133, 138, 0.2);
+}
+
+/* Noise texture overlay on wallpaper */
+.wallpaper-noise {
+  background-color: var(--wallpaper);
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+}
+
+/* Window glass effect */
+.window-glass {
+  background: var(--window-bg);
+  backdrop-filter: blur(20px) saturate(1.4);
+  -webkit-backdrop-filter: blur(20px) saturate(1.4);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  box-shadow: 0 8px 32px rgba(44, 44, 44, 0.12), 0 2px 8px rgba(44, 44, 44, 0.08);
+}
+
+.titlebar-glass {
+  background: var(--titlebar);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 10px 10px 0 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.dock-glass {
+  background: var(--dock-bg);
+  backdrop-filter: blur(24px) saturate(1.8);
+  -webkit-backdrop-filter: blur(24px) saturate(1.8);
+  border: 1px solid rgba(212, 133, 138, 0.25);
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(44, 44, 44, 0.1);
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--pink-folder);
+  border-radius: 2px;
+}
+
+/* Selection */
+::selection {
+  background: var(--pink-light);
+}
+
+/* Folder icon hover */
+.folder-icon:hover .folder-label {
+  background: rgba(212, 133, 138, 0.25);
+  border-radius: 4px;
+}
+
+/* Traffic light buttons */
+.traffic-red {
+  background: #FF5F57;
+}
+
+.traffic-yellow {
+  background: #FEBC2E;
+}
+
+.traffic-green {
+  background: #28C840;
+}
+
+.traffic-btn:hover .traffic-red {
+  background: #FF5F57;
+}
+
+/* Text selection disable on drag */
+.no-select {
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Finder sidebar */
+.finder-sidebar {
+  background: rgba(232, 196, 196, 0.15);
+  border-right: 1px solid var(--border);
+}
+
+/* Skill pill */
+.skill-pill {
+  display: inline-block;
+  background: var(--pink-light);
+  color: var(--charcoal);
+  border: 1px solid rgba(212, 133, 138, 0.3);
+  border-radius: 100px;
+  padding: 2px 10px;
+  font-size: 11px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
+
+/* Animate window open */
+@keyframes windowOpen {
+  from {
+    opacity: 0;
+    transform: scale(0.94);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.window-enter {
+  animation: windowOpen 0.18s ease-out forwards;
+}
