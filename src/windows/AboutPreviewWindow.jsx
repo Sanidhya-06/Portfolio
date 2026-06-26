@@ -4,7 +4,7 @@ export default function MePreviewWindow() {
       <img
         src="/images/me3.jpg"
         className="w-full rounded-lg object-cover"
-        style={{ maxHeight: "180px" }}
+        style={{ maxHeight: "350px" }}
       />
       <p style={{ fontSize: "11px", color: "var(--text-muted)", fontFamily: "Inter, sans-serif" }}>
     Sanidhya Shetty

@@ -8,8 +8,10 @@ export default function AboutSkillsWindow() {
           fontSize: "10px",
           color: "var(--text-muted)",
           letterSpacing: "0.08em",
-          marginBottom: "12px",
+          marginBottom: "4px",
+          marginTop: "2px",
           paddingLeft: "8px",
+          paddingTop: "4px",
         }}
       >
         SKILLS
@@ -23,13 +25,14 @@ export default function AboutSkillsWindow() {
               color: "var(--pink-accent)",
               fontWeight: 600,
               letterSpacing: "0.06em",
-              marginBottom: "6px",
+              marginBottom: "4px",
               paddingLeft: "8px",
+              marginTop: "4px",
             }}
           >
             {category.toUpperCase()}
           </p>
-          <div className="skill-pill-container flex flex-wrap gap-1.5 mb-3" style={{ paddingLeft: "8px", paddingRight: "8px" }}>
+          <div className="skill-pill-container flex flex-wrap gap-1.5 mb-3" style={{ paddingLeft: "8px", paddingRight: "8px", marginBottom: "4px" }}>
             {skills.map((skill) => (
               <span key={skill} className="skill-pill">
                 {skill}

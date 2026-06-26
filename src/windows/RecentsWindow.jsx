@@ -69,7 +69,7 @@ export default function RecentsWindow() {
           <div className="flex items-start justify-between gap-3 mb-1">
             <h2
               className="font-handwritten"
-              style={{ fontSize: "22px", color: "var(--charcoal)", fontWeight: 700, lineHeight: 1.2 }}
+              style={{ fontSize: "22px", color: "var(--charcoal)", fontWeight: 700, lineHeight: 1.2, paddingLeft: "8px", marginTop: "8px" }}
             >
               {item.title}
             </h2>
@@ -81,18 +81,21 @@ export default function RecentsWindow() {
                 fontWeight: 600,
                 fontSize: "10px",
                 border: `1px solid ${item.tagColor}30`,
+                marginRight: "8px",
+                marginTop: "4px",
+                padding: "2px 6px",
               }}
             >
               {item.tag}
             </span>
           </div>
 
-          <p style={{ fontSize: "11px", color: "var(--text-muted)", marginBottom: "4px" }}>
+          <p style={{ fontSize: "11px", color: "var(--text-muted)", marginBottom: "2px", paddingLeft: "8px" }}>
             {item.subtitle}
           </p>
 
           <div className="flex items-center gap-3 mb-4">
-            <span style={{ fontSize: "10px", color: "var(--pink-accent)", fontWeight: 500 }}>
+            <span style={{ fontSize: "10px", color: "var(--pink-accent)", fontWeight: 500, paddingLeft: "8px" }}>
               {item.org}
             </span>
             <span style={{ fontSize: "10px", color: "var(--text-muted)" }}>·</span>
@@ -107,7 +110,7 @@ export default function RecentsWindow() {
           {item.role && (
             <p
               className="mb-3 text-xs font-medium"
-              style={{ color: "var(--pink-accent)" }}
+              style={{ color: "var(--pink-accent)", paddingLeft: "8px" }}
             >
               Role: {item.role}
             </p>
@@ -119,6 +122,7 @@ export default function RecentsWindow() {
               color: "var(--charcoal)",
               lineHeight: 1.75,
               whiteSpace: "pre-line",
+              paddingLeft: "8px",
             }}
           >
             {item.description}
