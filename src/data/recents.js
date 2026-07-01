@@ -10,31 +10,31 @@ export const recents = {
       org: "IIT Roorkee",
       role: null,
       images: ["/images/roorkee1.png", "/images/roorkee2.png"],
-      description: `Competed in the General Championship at IIT Roorkee's flagship 
-entrepreneurship summit — E-Summit 2026. Represented alongside 
-teams from across India in a multi-day innovation and entrepreneurship 
-track. Received National Finalist certificate.
+      description: `Back in February, I had the opportunity to represent my college in the General Championship at E-Summit, IIT Roorkee. It was one of those experiences that 
+      teaches you more in three days than weeks of lectures ever could.
 
-Participated in several ongoing workshops throughout the summit covering 
-startup ecosystems, product building, and investor pitching.`,
-    },
-    {
-      id: "edc-blueprint",
-      title: "eDC Blueprint 6.0",
-      subtitle: "Maharashtra Top 8 · Fintech Track",
-      date: "Jan 15, 2026",
-      tag: "Top 8 · Maharashtra",
-      tagColor: "#B07A50",
-      org: "IIT Delhi · Entrepreneurship Development Cell",
-      role: "Fintech Track",
-      images: ["/images/edc.png", "/images/edc2.png"],
-      description: `Selected as one of Maharashtra's Top 8 teams in the Fintech Track 
-at IIT Delhi's flagship entrepreneurship event — Blueprint 6.0.
+The experience started on the train itself. Before we had even reached campus, 
+ideas were already flying around, challenged, discarded, and rebuilt. That pretty 
+much set the tone for the entire competition: fast-paced, chaotic, and 
+incredibly rewarding.
 
-Pitched a fintech product concept to a panel of IIT Delhi faculty, 
-industry mentors, and active investors. Competed in one of the most 
-competitive regional tracks of the event.`,
+I was working with teammates I hadn't collaborated with before, which meant 
+plenty of discussions and disagreements. Everyone approached problems 
+differently, and learning how to align on a single direction under tight deadlines 
+was just as challenging as solving the problem itself. Somehow, after countless 
+iterations, we pulled together our final pitch with barely ten minutes to spare. 
+Not exactly the recommended workflow, but it got us to the finish line.
+
+We didn't bring home a trophy, but that wasn't what stayed with me.
+
+Leaving without a win didn't feel like a setback. If anything, it made me more 
+motivated to come back better prepared, with stronger ideas, greater initiative, 
+and more confidence in my instincts.
+
+Grateful for the people I met, the lessons I learned, and the kind of chaos that somehow turns into growth. 
+`,
     },
+   
     {
       id: "techRush",
       title: "TechRush — GDG Internal Hackathon",
@@ -76,64 +76,6 @@ collection of disconnected screens become a product people could actually use.
 That's what made the experience worth it.`,
     },
     {
-      id: "amity",
-      title: "Amity Nirman 2025",
-      subtitle: "Top 75 of 500+ Teams",
-      date: "Jan 2026",
-      tag: "Top 75 / 500+",
-      tagColor: "#6A8A6A",
-      org: "Amity University",
-      role: "Research + Frontend",
-      images: ["/images/nirman.jpg"],
-      description: `Shortlisted in the top 75 teams out of 500+ national entries 
-at Amity Nirman 2025.
-
-Handled market research, problem framing, and frontend prototyping 
-for the team. Synthesized research to define the core problem 
-statement and solution hypothesis. Built initial UI from wireframe 
-to working screens.`,
-    },
-    {
-      id: "gdg-lead",
-      title: "Co-Head, UI/UX — GDG on Campus",
-      subtitle: "Leadership Role · Sep 2025 – May 2026",
-      date: "Sep 2025 – May 2026",
-      tag: "Leadership",
-      tagColor: "#4A7A9B",
-      org: "GDG on Campus, MGMCET",
-      role: "Co-Head, UI/UX",
-      images: ["/images/gdg.png"],
-      description: `Directed the UI/UX vertical end-to-end across the club year — 
-from requirement gathering and design reviews to final delivery 
-across all club projects.
-
-Coordinated cross-functional workflows across designers, developers, 
-and club leads. Mentored members through wireframing sessions and 
-frontend implementation guidance.
-
-Facilitated a Figma 101 workshop for college peers, covering 
-animation principles, design systems, and interactive prototyping.`,
-    },
-  ],
-  2025: [
-    {
-      id: "arvr",
-      title: "AR/VR Ideathon",
-      subtitle: "1st Place · Women's Challenges, Bold Solutions",
-      date: "Sep 20, 2025",
-      tag: "🥇 1st Place",
-      tagColor: "#C4943A",
-      org: "Ramrao Adik Institute of Technology, Nerul",
-      role: null,
-      images: ["/images/arvr.jpg", "/images/arvr2.jpg"],
-      description: `Won the ideathon track at an inter-college AR/VR event focused 
-on women-centric challenge statements.
-
-The event combined a hands-on AR/VR workshop with a competitive 
-ideathon format. Received both workshop participation and ideathon 
-winning certificates.`,
-    },
-    {
       id: "ieee",
       title: "IEEE Ideathon",
       subtitle: "2nd Place · Runner-Up",
@@ -149,6 +91,69 @@ competing student teams at MGMCET.
 Internal competition run under the IEEE student chapter, evaluating 
 teams on problem framing, solution design, and presentation.`,
     },
+    
+  ],
+
+  2025: [
+    {
+      id: "amity",
+      title: "Amity Nirman 2025",
+      subtitle: "Top 75 of 500+ Teams",
+      date: "Jan 2025",
+      tag: "Top 75 / 500+",
+      tagColor: "#6A8A6A",
+      org: "Amity University",
+      role: "Research + Frontend",
+      images: ["/images/nirman.jpg"],
+      description: `Amity Nirman 2025 was my first hackathon back in my first year of engineering, and looking back, it's where I truly understood what hackathons are meant to be.
+
+Going in, I assumed they were mostly about building something quickly. Instead, I discovered that the real challenge starts much earlier, with understanding the problem, validating assumptions, and figuring out whether your solution solves something people actually care about.
+
+Our team worked on identifying a real-world problem, and I focused on market research, user needs, and framing the problem statement. Reading reports, comparing existing solutions, and connecting different insights helped us shape a clear solution hypothesis before we started building.
+
+Once our direction was clear, I designed the initial frontend prototype, taking it from wireframes to interactive screens that reflected the product we had envisioned. It was the first time I saw how research and design complement each other, where every screen exists because of a decision backed by user and market insights.
+
+Out of 500+ teams from across the country, we were shortlisted among the Top 75, which was an exciting milestone for my very first hackathon.
+
+More importantly, it changed how I think about building products. Since then, every hackathon and project I've worked on has started the same way: understand the problem first, then build the solution. That mindset is probably the biggest thing I took away from my first experience.
+`,
+    },
+    {
+      id: "arvr",
+      title: "AR/VR Ideathon",
+      subtitle: "1st Place · Women's Challenges, Bold Solutions",
+      date: "Sep 20, 2025",
+      tag: "🥇 1st Place",
+      tagColor: "#C4943A",
+      org: "Ramrao Adik Institute of Technology, Nerul",
+      role: null,
+      images: ["/images/arvr.jpg", "/images/arvr2.jpg"],
+      description: `I had participated in an AR/VR Workshop and Ideathon at Ramrao Adik Institute of Technology, Nerul, where I got to explore immersive technology and apply it to solving a real-world challenge.
+The day began with a hands-on workshop where we explored the basics of augmented reality. We learned how image targets can be scanned and recognized to trigger 3D virtual content, turning an ordinary printed image into an interactive AR experience.
+After the workshop, we were asked to form teams and develop a solution for a women-centric problem statement.
+My friend and I were looking for one more teammate and approached someone we hadn't met before. We later found out he was a doctor pursuing research. Safe to say, none of us expected our ideathon team to include a medical researcher, but that mix of perspectives made brainstorming far more interesting.
+Together, we came up with Oriv, an AR/VR concept that helps mothers reconnect with dreams they had put aside while raising a family. Through personalized avatars, immersive virtual environments, and AI-powered storytelling, mothers could experience what it might have felt like to pursue those aspirations, whether becoming a dancer, an artist, a pilot, or something else entirely. The experience could even be captured as a digital memory to revisit later.
+The judges appreciated both the emotional impact and the practical use of immersive technology, and our idea went on to win the Ideathon.`,
+    },
+    {
+      id: "gdg-lead",
+      title: "Co-Head, UI/UX — GDG on Campus",
+      subtitle: "Leadership Role · Sep 2025 – May 2026",
+      date: "Sep 2025 – May 2026",
+      tag: "Leadership",
+      tagColor: "#4A7A9B",
+      org: "GDG on Campus, MGMCET",
+      role: "Co-Head, UI/UX",
+      images: ["/images/gdg.png"],
+      description: `  In my second year of engineering, I had the opportunity to serve as the UI/UX 
+      Co-Head for my college's GDG on Campus. Taking on a leadership role early in my undergraduate journey meant learning to balance creativity, collaboration, and responsibility while working with a growing team. Throughout the club year, I 
+      helped guide the UI/UX vertical by supporting design initiatives, coordinating with 
+      the teams and ensuring projects moved smoothly from ideas to execution.
+      One of the highlights of the year was conducting a beginner-friendly Figma 101 workshop for fellow students. We explored design systems, prototyping, animations, and the fundamentals of building interactive interfaces.
+      More than the projects themselves, this experience strengthened my communication, leadership, and decision-making skills. Becoming Co-Head in my second year gave
+      me the confidence to lead teams, take ownership of responsibilities, and contribute 
+      to building a collaborative and growth-oriented culture within the club.`,
+    },
     {
       id: "sih",
       title: "Smart India Hackathon (SIH)",
@@ -159,14 +164,15 @@ teams on problem framing, solution design, and presentation.`,
       org: "Government of India",
       role: "Research + Architecture + Frontend",
       images: ["/images/sih.jpg"],
-      description: `Participated in the internal round of Smart India Hackathon 2025.
+      description: `Our problem statement revolved around blue carbon ecosystems and carbon registries, a space I knew very little about before the event. That quickly changed as I spent most of my time researching how blue carbon projects work, why they're important for climate action, and how MRV (Monitoring, Reporting, and Verification) systems ensure that carbon credits are credible and transparent.
 
-Investigated blue carbon systems and MRV (Monitoring, Reporting, 
-Verification) workflows to derive a functional product architecture 
-for a carbon registry system.
+The more I read, the more I realized the challenge wasn't just collecting data. It was designing a workflow that people could actually trust and use.
 
-Implemented frontend UI and registry flow design aligned to the 
-research findings.`,
+Based on that research, I proposed a unique MRV approach that became the foundation of our solution. From there, I translated those ideas into a practical product flow, designing the registry process and building the frontend interface around it so the experience matched the research instead of feeling like disconnected screens.
+
+We didn't spend the weekend chasing fancy features. We spent it understanding the problem first and letting the solution emerge from that understanding.
+
+Looking back, this hackathon changed the way I approach projects. Instead of jumping straight into development, I learned the value of asking better questions, researching the domain thoroughly, and building technology around real-world needs rather than assumptions.`,
     },
     {
       id: "google-cloud",
@@ -177,30 +183,16 @@ research findings.`,
       tagColor: "#4A85C4",
       org: "Google",
       role: null,
-      images: ["/images/gdg.png"],
-      description: `Completed all assigned Google Cloud skill-badge tasks across the 
-Gen AI Study Jams program. Ranked in the Top 100 finishers nationally.
+      images: ["/images/cloud1.png"],
+      description: `A self-paced series of hands-on labs focused on generative AI, with no demo day or competition, just the discipline of working through the material one lab at a time.
 
-Covered Vertex AI, Gemini APIs, and various Google Cloud ML services 
-across the completion track. Received official Google goodies and 
-a completion certificate.`,
-    },
-    {
-      id: "figma-workshop",
-      title: "Figma 101 Workshop",
-      subtitle: "Facilitated for College Peers",
-      date: "2025",
-      tag: "Facilitated",
-      tagColor: "#9B6A9B",
-      org: "GDG on Campus, MGMCET",
-      role: "Facilitator",
-      images: ["/images/me2.jpg", "/images/me3.jpg"],
-      description: `Designed and facilitated a Figma 101 workshop for college peers 
-under the GDG on Campus UI/UX vertical.
+The idea sounded simple: complete Google's generative AI labs, apply the concepts hands-on, and keep progressing. In reality, balancing coursework, projects, and everything else while staying consistent took more effort than I expected.
 
-Covered animation principles, design systems, component libraries, 
-and interactive prototyping in Figma. Aimed at getting beginners 
-from zero to a publishable prototype in one session.`,
+What I appreciated most was the learning format. Generative AI can be full of concepts that make sense while you're reading them but don't truly click until you build something yourself. The hands-on labs bridged that gap, turning theory into practical experience and making the concepts far easier to understand.
+
+The entire college participated, which added a quiet layer of motivation. A shared leaderboard meant everyone was progressing through the same challenges, creating just enough friendly competition to keep pushing forward.
+
+By the end of the program, I finished among the Top 100 participants across the entire student pool. More than the ranking itself, it was a reminder that consistent effort, even when it isn't flashy, compounds over time.`,
     },
   ],
 }
