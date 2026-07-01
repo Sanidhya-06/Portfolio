@@ -49,14 +49,31 @@ competitive regional tracks of the event.`,
         "/images/techrush2.jpg",
         "/images/techrush3.jpg",
       ],
-      description: `Led product strategy and project coordination for EcoLife — a 
-gamified carbon footprint tracker built in a 7-day sprint.
+      description: `Most sustainability apps make you feel guilty for simply existing. 
+      We wanted to build one that made sustainable choices feel rewarding instead.
+EcoLife is a gamified carbon tracking app built for students. 
+Instead of asking for electricity bills or making users calculate complicated carbon emissions, the app lets them log simple daily activities like cycling, walking, 
+or using public transport. Every action updates their EcoScore, streaks, rewards, 
+and campus leaderboard in real time, making sustainability feel more 
+like a game than a chore.
 
-Defined the 5-feature MVP scope, mapped end-to-end user flows, 
-and coordinated the design and development team. Delivered a 
-functional Android APK on Flutter.
+The most interesting part? I'd never written a line of Dart before this hackathon.
+Within a week, our team of four had built and shipped a complete Flutter 
+application with Firebase Authentication, Cloud Firestore, and Provider for 
+state management. Every logged activity flowed seamlessly through the app, 
+updating scores, leaderboards, and achievements instantly.
 
-First place win out of competing GDG teams.`,
+One decision that paid off early was spending time away from the keyboard. 
+Before building a single screen, we mapped the entire user journey on 
+a whiteboard, from onboarding and activity logging to scoring and rewards. 
+That shift in mindset changed the project from "building pages" to 
+designing an experience.\n
+Winning first place was an incredible feeling, but the part I'll remember 
+most is everything that happened before the results. Learning a new language 
+under pressure, debating UI decisions, debugging until sunrise, and watching a 
+collection of disconnected screens become a product people could actually use.
+
+That's what made the experience worth it.`,
     },
     {
       id: "amity",
