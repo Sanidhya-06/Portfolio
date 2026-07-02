@@ -30,10 +30,10 @@ Stack: Flutter · Firebase Authentication · Cloud Firestore · Provider`,
   {
     id: "sign-to-speech",
     name: "Sign-to-Speech Translator",
-    subtitle: "Affective ASL-to-Speech Pipeline",
+    subtitle: "Still under development",
     stack: ["Python", "TensorFlow", "MediaPipe", "DeepFace"],
     date: "May 2026",
-    images: ["/images/sih.jpg", "/images/arvr.jpg"],
+    images: [""],
     badge: null,
     description: `Most sign language tools translate the words and stop there. This 
     one goes further — it tries to catch the feeling behind them too. A frustrated "Help!" and a polite "Help?" sign identically, but they 

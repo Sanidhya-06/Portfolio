@@ -16,6 +16,9 @@ export default function ProjectsWindow() {
     if (id === "ecolife") {
       closeWindow(PROJECT_PREVIEW_CONFIGS.horizontal.id)
       openWindow(PROJECT_PREVIEW_CONFIGS.vertical)
+    } else if (id === "sign-to-speech") {
+      closeWindow(PROJECT_PREVIEW_CONFIGS.horizontal.id)
+      closeWindow(PROJECT_PREVIEW_CONFIGS.vertical.id)
     } else {
       closeWindow(PROJECT_PREVIEW_CONFIGS.vertical.id)
       openWindow(PROJECT_PREVIEW_CONFIGS.horizontal)
